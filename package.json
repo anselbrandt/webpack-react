@@ -9,6 +9,7 @@
     "start": "webpack-dev-server --open --mode development",
     "start:live": "webpack-dev-server --open --mode development --liveReload"
   },
+  "main": "./build/index.js",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "7.9.6",
